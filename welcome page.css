@@ -1,0 +1,130 @@
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+#rnbw div{
+	/**position:absolute;
+	bottom: 300 px;
+	right: 150 px;*/
+	height: 200 px;
+	width: 100 px;
+	min-height: 10em;
+    display: inline-block;
+    
+	
+}
+body {
+    background-color: #DDECEF;
+}
+
+title {
+    background-color: white;
+	opacity: 50%
+}
+
+}
+-scene {
+  /** Basic styles for an animated element */
+  .scene_element {
+    animation-duration: 0.25s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+  }
+  /** An element that fades in */
+.scene_element--fadein {
+    animation-name: fadeIn;
+  }
+  /** An element that fades in and slides up */
+  .scene_element--fadeinup {
+    animation-name: fadeInUp;
+  }
+
+  /** An element that fades in and slides from the right */
+  .scene_element--fadeinright {
+    animation-name: fadeInRight;
+  }
+}
+body{
+	font-family: 'Amatic SC', sans-serif;
+	color: #000;
+}
+
+#container{
+	width:800px;
+	margin:25px auto;
+	padding: 20px;
+	width:70%;
+	float: left;
+}
+#container h2{
+	text-align:center;
+	color:#DDECEF ;
+	float: left;
+	display: inline-block;
+}
+
+#quoteContainer{
+	width:75%;
+	background: #DDECEF;
+	padding:10px;
+	/**margin:50px auto;*/
+	text-align: center;
+	height:70px;
+	margin-right:10px;
+	display: inline-block;
+}
+#buttonContainer{
+	width: 100%;
+	text-align: center;
+	display: inline-block
+}
+#quoteButton{
+	width:200px;
+	/**margin-top: 60px;*/
+	border:2px solid #46b8da;
+	color:#045;
+	font-family: inherit;
+	font-weight: bold;
+	padding:5px;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+}
+
+#quoteButton:hover{
+	cursor:pointer;
+	background:#09c;
+	color: #fff;	
+}
+#quoteButton:active{
+	cursor: pointer;
+}
+#quoteButton{
+	display: inline-block;
+}
+#quoteGenius{
+	font-style: italic;
+	font-weight: 600;
+	text-align: center;
+}
+.c1 {
+	color: #045;
+    background-color: transparent;
+	border:2px solid #46b8da;
+	
+}
+.c1:hover{
+	cursor:pointer;
+	background:#09c;
+	color: #fff
+}
+
+/*MEDIA QUERIES*/
+@media screen and(max-width:760px){
+	#quoteButton,#addNew{
+		display: block;
+	}
+}
