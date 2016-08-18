@@ -5,88 +5,101 @@
   -webkit-background-clip: text;
   background-clip: text;
 }
-#rnbw div{
+#rnbw{
 	/**position:absolute;
 	bottom: 300 px;
 	right: 150 px;*/
-	height: 200 px;
-	width: 100 px;
-	min-height: 10em;
-    display: inline-block;
-    
-	
+	height: 100%;
+	width: 40%;
+    float: right;	
+}
+
+#slug{
+	height: 100%;
+	width: 100%;
 }
 body {
     background-color: #DDECEF;
 }
-
+h1{
+	font-family: 'Amatic SC';
+	font-size: 70px;
+	font-style: bold;
+}
 title {
     background-color: white;
-	opacity: 50%
+	opacity: 50%;
+	font-family: 'Amatic SC';
 }
 
-}
+/**}
 -scene {
-  /** Basic styles for an animated element */
+  /** Basic styles for an animated element 
   .scene_element {
     animation-duration: 0.25s;
     transition-timing-function: ease-in;
     animation-fill-mode: both;
   }
-  /** An element that fades in */
+  /** An element that fades in 
 .scene_element--fadein {
     animation-name: fadeIn;
   }
-  /** An element that fades in and slides up */
+  /** An element that fades in and slides up 
   .scene_element--fadeinup {
     animation-name: fadeInUp;
   }
 
-  /** An element that fades in and slides from the right */
+  /** An element that fades in and slides from the right 
   .scene_element--fadeinright {
     animation-name: fadeInRight;
-  }
+  }*/
 }
 body{
-	font-family: 'Amatic SC', sans-serif;
+	font-family: 'Amatic SC';
 	color: #000;
 }
 
-#container{
-	width:800px;
-	margin:25px auto;
+#left-container{
+	width:50%;
+	height: 100%;
+	/**margin:25px auto;*/
 	padding: 20px;
-	width:70%;
 	float: left;
+	text-align: center;
+	font-family: 'Amatic SC';
+	
 }
 #container h2{
-	text-align:center;
+	text-align:left;
 	color:#DDECEF ;
 	float: left;
-	display: inline-block;
 }
-
+#twocol{
+	display: inline;
+	width: 100%;
+	height: 500px;
+}
 #quoteContainer{
-	width:75%;
+	width:65%;
 	background: #DDECEF;
 	padding:10px;
-	/**margin:50px auto;*/
+	font-family: 'Amatic SC';
+	font-size: 30px;
 	text-align: center;
-	height:70px;
-	margin-right:10px;
+	height:75%;
 	display: inline-block;
 }
 #buttonContainer{
 	width: 100%;
 	text-align: center;
-	display: inline-block
+	display: inline-block;
 }
 #quoteButton{
 	width:200px;
 	/**margin-top: 60px;*/
 	border:2px solid #46b8da;
 	color:#045;
-	font-family: inherit;
+	font-family: 'Amatic SC';
 	font-weight: bold;
 	padding:5px;
 	text-decoration: none;
@@ -114,13 +127,14 @@ body{
 	color: #045;
     background-color: transparent;
 	border:2px solid #46b8da;
-	
+	font-size: 30px;	
 }
 .c1:hover{
 	cursor:pointer;
 	background:#09c;
-	color: #fff
+	color: #fff;
 }
+
 
 /*MEDIA QUERIES*/
 @media screen and(max-width:760px){
