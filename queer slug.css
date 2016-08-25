@@ -1,0 +1,19 @@
+
+body{
+	color: black;
+	text-align: left;
+	font-size: 18px;
+	background-color: #DDECEF;
+	font-family: "Helvetica";
+}
+h1{
+	font-family: "Amatic SC";
+	text-align: center;
+	font-size: 50px;
+	text-decoration: underline;
+}
+h3{
+	font-family: "Amatic SC";
+	text-align: left;
+	font-size: 30px;
+}

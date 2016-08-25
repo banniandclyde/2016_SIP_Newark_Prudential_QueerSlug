@@ -1,0 +1,39 @@
+body{
+	color: black;
+	text-align: left;
+	font-size: 18px;
+	background-color: #DDECEF;
+	font-family: "Helvetica";
+	height: 100%;
+	overflow: auto;
+}
+
+
+h2{
+	background-color: #DDECEF;
+	font-family: "Amatic SC";
+	text-align: left;
+	font-size: 40px;
+	text-align: center;
+}
+h3{
+	background-color: #DDECEF;
+	font-family: "Amatic SC";
+	text-align: left;
+	font-size: 30px;
+}
+h4{
+	background-color: #DDECEF;
+	font-family: "Amatic SC";
+	text-align: left;
+}
+div{
+	background-color: #DDECEF;
+}
+
+
+img{
+	background-color: #DDECEF;
+	width: 100%;
+	
+}
